@@ -34,4 +34,17 @@ let questions = [
         choice4: "alert('Hellow World');",
         answer: 4
     }
+
+    //Constants
+    const CORRECT_BONUS = 10;
+    const MAX_QUESTIONS = 3;
+
+    startgame = () {
+        questionCounter = 0;
+        score = 0;
+        availableQuestions = [...questions];
+        console.log(availableQuestions);
+    };
+
+    startgame();
 ];
